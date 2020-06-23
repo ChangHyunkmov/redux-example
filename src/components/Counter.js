@@ -13,9 +13,9 @@ class Counter extends Component {
 
   setRandomColor() {
     const color = [
-      Math.floor(Math.random() * 55 + 200),
-      Math.floor(Math.random() * 55 + 200),
-      Math.floor(Math.random() * 55 + 200),
+      Math.floor(Math.random() * 155 + 100),
+      Math.floor(Math.random() * 155 + 100),
+      Math.floor(Math.random() * 155 + 100),
     ];
 
     this.props.handleSetColor(color);

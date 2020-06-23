@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Counter from "./Counter";
+import Random from "./Random";
 
 export default class App extends Component {
   constructor(props) {
@@ -7,6 +8,11 @@ export default class App extends Component {
   }
 
   render() {
-    return <Counter></Counter>;
+    return (
+      <div>
+        <Counter></Counter>
+        <Random></Random>
+      </div>
+    );
   }
 }
